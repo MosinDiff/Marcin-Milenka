@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header {
+  width: 100%;
+  height: 300px;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+main {
+  display: flex;
+  min-height: calc(100vh - 300px);
+}
+
+
+.lewaR {
+  width: 8%;
+  background-color: rgb(90, 51, 180);
+  display: flex;
+  flex-direction: column; 
+}
+
+.lewaR img {
+  width: 100%;
+  height: 100%; 
+
+}
+
+.lewa {
+  width: 25%;
+  padding: 15px;
+  overflow-y: auto;
+  background-color: #f4c5cc;
+}
+
+.lewa h1 {
+  margin-bottom: 10px;
+}
+
+.lewa li {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+
+.srodek {
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 57%;
+  padding: 15px;
+  background-color: #f4c5cc;
+  overflow-y: auto;
+}
+
+
+#ile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#ile p {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.calus {
+  margin-bottom: 20px;
+}
+
+.calus img {
+  width: 180px; 
+  height: 180px;
+  object-fit: cover;
+  border: 3px solid black;
+  margin: 5px;
+}
+
+
+.urocze {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.urocze p {
+  width: 100%;
+  font-weight: bold;
+}
+
+.urocze img {
+  width: 180px; 
+  height: 180px;
+  object-fit: cover;
+  border: 3px solid black;
+}
+
+
+.prawa {
+  width: 10%;
+  padding: 15px;
+  overflow-y: auto;
+  background-color: #f4c5cc;
+}
+
+.prawa li {
+  font-size: 18px;
+}
+
+
+.sk {
+  text-decoration: line-through;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: white;
+}
+
+footer a {
+  color: #ffb3c1;
+}
